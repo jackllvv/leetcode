@@ -35,6 +35,7 @@ public class Question5 {
 
 		/**
 		 * 预处理字符串，例如，s="abba" 那么t="$#a#b#b#a#@"
+		 * $和@是为了防止边界检测
 		 */
 		private void preprocess() {
 			t = new char[s.length() * 2 + 3];
